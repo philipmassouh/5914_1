@@ -17,8 +17,14 @@ Python
 ```
 pip install --upgrade "ibm-watson>=5.1.0"
 ```
-Demo mode will print the sentences as they are translated to demonstrate the functionality of the program.
-To use: ```python telephone.py demo```
+Demo mode will print the sentences as they are translated to demonstrate the functionality of the program.\
+To use: 
+```
+python telephone.py demo
+```
 
-Play mode will suppress the intermediate translations in order to provide more competitive gameplay.
-To use: ```python telephone.py play```
+Play mode will suppress the intermediate translations in order to provide more competitive gameplay.\
+To use: 
+```
+python telephone.py play
+```
