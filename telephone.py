@@ -11,8 +11,7 @@ def similar(a, b):
     return SequenceMatcher(None, a, b).ratio()
 
 if len(sys.argv) != 2 or (sys.argv[1] != "demo" and sys.argv[1] != "play"):
-    print("Improper command line argument. Expected 'telephone.py [demo/play]'")
-    quit()
+    sys.exit("Improper command line argument. Expected 'telephone.py [demo/play]'")
 
 authenticator = IAMAuthenticator('-LsDW7oVqIm2_wjDZeAcEnt5c3kmjqKoP7DWl90PX4BV')
 language_translator = LanguageTranslatorV3(
