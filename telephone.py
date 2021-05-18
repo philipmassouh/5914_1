@@ -15,6 +15,7 @@ language_translator.set_service_url('https://api.us-south.language-translator.wa
 # Input should be some complex sentence in case it will have some real changes, for example: how are you.
 sentence = input("Player 1, enter sentence: ")
 
+# english, italian, german, french, english
 languages = ["en-it", "it-de", "de-fr", "fr-en"]
 
 for i in range(4):
